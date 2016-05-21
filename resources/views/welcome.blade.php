@@ -12,7 +12,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+
     <!-- Custom styles for this template -->
     <link href="{{ asset('/css/main.css') }}" rel="stylesheet">
 
@@ -44,8 +46,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
-                <li><a href="#desc" class="smoothScroll">About</a></li>
-                <li><a href="#showcase" class="smoothScroll">Do I Qualify?</a></li>
+                <li><a href="#desc" class="smoothScroll">Lines</a></li>
+                <li><a href="#features" class="smoothScroll">Do I Qualify?</a></li>
+                <li><a href="#showcase" class="smoothScroll">Testimonials</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
            </ul>
         </div><!--/.nav-collapse -->
@@ -54,56 +57,32 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
 <section id="home" name="home"></section>
-<div id="headerwrap">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <h1>Acacha <b><a href="https://github.com/acacha/adminlte-laravel">adminlte-laravel</a></b></h1>
-                <h3>A <a href="https://laravel.com/">Laravel</a> 5 package that switchs default Laravel
-                    scaffolding/boilerplate to <a href="https://almsaeedstudio.com/preview">AdminLTE</a> template with
-                    <a href="http://getbootstrap.com/">Bootstrap</a> 3.0 and <a href="http://blacktie.co/demo/pratt/">Pratt</a> Landing page</h3>
-                <h3><a href="{{ url('/register') }}" class="btn btn-lg btn-success">Get Started!</a></h3>
-            </div>
-            <div class="col-lg-2">
-                <h5>Amazing admin template</h5>
-                <p>Based on adminlte bootstrap theme</p>
-                <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow1.png') }}">
-            </div>
-            <div class="col-lg-8">
-                <img class="img-responsive" src="{{ asset('/img/app-bg.png') }}" alt="">
-            </div>
-            <div class="col-lg-2">
-                <br>
-                <img class="hidden-xs hidden-sm hidden-md" src="{{ asset('/img/arrow2.png') }}">
-                <h5>Awesome packaged...</h5>
-                <p>... by <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a> at <a href="http://acacha.org">acacha.org</a> ready to use with Laravel!</p>
-            </div>
-        </div>
-    </div> <!--/ .container -->
-</div><!--/ #headerwrap -->
+    <img src="{{asset('img/wehustleng_plain.jpg')}}" width="100%">
 
+    <div class="container">
+    </div> 
 
 <section id="desc" name="desc"></section>
 <!-- INTRO WRAP -->
 <div id="intro">
     <div class="container">
         <div class="row centered">
-            <h1>Designed To Excel</h1>
+            <h1>User Groups</h1>
             <br>
             <br>
             <div class="col-lg-4">
-                <img src="{{ asset('/img/intro01.png') }}" alt="">
-                <h3>Community</h3>
+                <img src="{{asset('img/wehustleng_plai.jpg')}}" alt="">
+                <h3>Junior Hustler</h3>
                 <p>See <a href="https://github.com/acacha/adminlte-laravel">Github project</a>, post <a href="https://github.com/acacha/adminlte-laravel/issues">issues</a> and <a href="https://github.com/acacha/adminlte-laravel/pulls">Pull requests</a></p>
             </div>
             <div class="col-lg-4">
-                <img src="{{ asset('/img/intro02.png') }}" alt="">
-                <h3>Schedule</h3>
+                <img src="{{asset('img/ehustleng_plain.jpg')}}" alt="">
+                <h3>Senior Hustler</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-4">
-                <img src="{{ asset('/img/intro03.png') }}" alt="">
-                <h3>Monitoring</h3>
+                <img src="{{asset('img/ehustleng_plain.jpg')}}" alt="">
+                <h3>LOC Member</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
         </div>
@@ -116,22 +95,22 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="features">
     <div class="container">
         <div class="row">
-            <h1 class="centered">What's New?</h1>
+            <h1 class="centered">Do I qualify?</h1>
             <br>
             <br>
             <div class="col-lg-6 centered">
-                <img class="centered" src="{{ asset('/img/mobile.png') }}" alt="">
+                <img class="centered" src="{{asset('img/wehstleng_plain.jpg')}}" alt="">
             </div>
 
             <div class="col-lg-6">
-                <h3>Some Features</h3>
+                <h3>Some Criteria</h3>
                 <br>
                 <!-- ACCORDION -->
                 <div class="accordion ac" id="accordion2">
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                First Class Design
+                                Personality Culture
                             </a>
                         </div><!-- /accordion-heading -->
                         <div id="collapseOne" class="accordion-body collapse in">
@@ -145,7 +124,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                Retina Ready Theme
+                                Business Revenue
                             </a>
                         </div>
                         <div id="collapseTwo" class="accordion-body collapse">
@@ -159,7 +138,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                Awesome Support
+                                Asset Declaration
                             </a>
                         </div>
                         <div id="collapseThree" class="accordion-body collapse">
@@ -173,7 +152,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                                Responsive Design
+                                Achievements
                             </a>
                         </div>
                         <div id="collapseFour" class="accordion-body collapse">
@@ -194,7 +173,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="showcase">
     <div class="container">
         <div class="row">
-            <h1 class="centered">Some Screenshots</h1>
+            <h1 class="centered">Testimonials</h1>
             <br>
             <div class="col-lg-8 col-lg-offset-2">
                 <div id="carousel-example-generic" class="carousel slide">
@@ -207,10 +186,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="{{ asset('/img/item-01.png') }}" alt="">
+                            <img src="{{asset('img/wehustleng_plain.jpg')}}" alt="">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('/img/item-02.png') }}" alt="">
+                            <img src="{{asset('img/wehustleng_plain.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -226,18 +205,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <section id="contact" name="contact"></section>
 <div id="footerwrap">
     <div class="container">
-        <div class="col-lg-5">
-            <h3>Address</h3>
-            <p>
-                Av. Greenville 987,<br/>
-                New York,<br/>
-                90873<br/>
-                United States
-            </p>
-        </div>
 
-        <div class="col-lg-7">
-            <h3>Drop Us A Line</h3>
+        <div class="col-lg-8 col-lg-offset-2">
+            <h3 style="display: inline;">Drop Us A Line Here</h3> &nbsp; &nbsp; OR  &nbsp; &nbsp;
+            <a class="btn btn-info" href="https://twitter.com/wehustleng">Tweet at Us!</a> 
             <br>
             <form role="form" action="#" method="post" enctype="plain">
                 <div class="form-group">
@@ -261,14 +232,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="c">
     <div class="container">
         <p>
-            <a href="https://github.com/acacha/adminlte-laravel"></a><b>admin-lte-laravel</b></a>. A Laravel 5 package that switchs default Laravel scaffolding/boilerplate to AdminLTE template.<br/>
-            <strong>Copyright &copy; 2015 <a href="http://acacha.org">Acacha.org</a>.</strong> Created by <a href="http://acacha.org/sergitur">Sergi Tur Badenas</a>. See code at <a href="https://github.com/acacha/adminlte-laravel">Github</a>
-            <br/>
-            AdminLTE created by Abdullah Almsaeed <a href="https://almsaeedstudio.com/">almsaeedstudio.com</a>
-            <br/>
-             Pratt Landing Page Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a>
+           Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart"></i> by wehustleng. 
         </p>
-
     </div>
 </div>
 
