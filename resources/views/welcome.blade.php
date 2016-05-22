@@ -65,7 +65,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="intro">
     <div class="container">
         <div class="row centered">
-            <h1>User Groups</h1>
+            <h1>Member Groups</h1>
             <br>
             <br>
             <div class="col-lg-4">
@@ -203,12 +203,16 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <section id="contact" name="contact"></section>
 <div id="footerwrap">
     <div class="container">
+        <h3>We'd love to here from you!</h3> 
+        <div class="col-lg-3 centered">
+        <p></p>
+        <p><a class="btn btn-info" href="mailto: wehustleng@gmail.com"><i class="fa fa-envelope"></i> Mail us!</a></p>
+        <p><a class="btn btn-info" href="https://twitter.com/wehustleng"><i class="fa fa-twitter"></i> Tweet at Us!</a></p>
+        </div>
 
-        <div class="col-lg-8 col-lg-offset-2">
-            <h3 style="display: inline;">Drop Us A Line Here</h3> &nbsp; &nbsp; OR  &nbsp; &nbsp;
-            <a class="btn btn-info" href="https://twitter.com/wehustleng">Tweet at Us!</a> 
-            <br>
-            <form role="form" action="#" method="post" enctype="plain">
+        <div class="col-lg-9 centered">
+            <form role="form" action="{{url('/contact')}}" method="post">
+                {{ csrf_token() }}
                 <div class="form-group">
                     <label for="name1">Your Name</label>
                     <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
