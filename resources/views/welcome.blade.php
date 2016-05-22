@@ -22,9 +22,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="{{ asset('/js/jquery.min.js') }}"></script>
 
     <script src="{{ asset('/js/smoothscroll.js') }}"></script>
-
+    
 
 </head>
 
@@ -46,7 +47,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
-                <li><a href="#desc" class="smoothScroll">Lines</a></li>
+                <li><a href="#desc" class="smoothScroll">About</a></li>
                 <li><a href="#features" class="smoothScroll">Do I Qualify?</a></li>
                 <li><a href="#showcase" class="smoothScroll">Testimonials</a></li>
                 <li><a href="#contact" class="smoothScroll">Contact</a></li>
@@ -57,10 +58,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
 <section id="home" name="home"></section>
-    <img src="{{asset('img/wehustleng_plain.jpg')}}" width="100%">
-
-    <div class="container">
-    </div> 
+<img src="{{asset('img/wehustleng.jpg')}}" class="img-responsive" width="100%">
 
 <section id="desc" name="desc"></section>
 <!-- INTRO WRAP -->
@@ -71,17 +69,17 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-4">
-                <img src="{{asset('img/wehustleng_plai.jpg')}}" alt="">
+                <img src="{{asset('img/about.png')}}" alt="">
                 <h3>Junior Hustler</h3>
-                <p>See <a href="https://github.com/acacha/adminlte-laravel">Github project</a>, post <a href="https://github.com/acacha/adminlte-laravel/issues">issues</a> and <a href="https://github.com/acacha/adminlte-laravel/pulls">Pull requests</a></p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-4">
-                <img src="{{asset('img/ehustleng_plain.jpg')}}" alt="">
+                <img src="{{asset('img/about.png')}}" alt="">
                 <h3>Senior Hustler</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
             <div class="col-lg-4">
-                <img src="{{asset('img/ehustleng_plain.jpg')}}" alt="">
+                <img src="{{asset('img/about.png')}}" alt="">
                 <h3>LOC Member</h3>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
@@ -99,7 +97,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
             <div class="col-lg-6 centered">
-                <img class="centered" src="{{asset('img/wehstleng_plain.jpg')}}" alt="">
+                <img class="centered" src="{{asset('img/details.png')}}" alt="">
             </div>
 
             <div class="col-lg-6">
