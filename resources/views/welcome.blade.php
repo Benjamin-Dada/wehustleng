@@ -70,18 +70,20 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <div class="col-lg-4">
                 <img src="{{asset('img/about.png')}}" alt="">
-                <h3>Junior Hustler</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h3>Junior Hustlers</h3>
+                <p>Hustlers trying to get ahead in their business pursuits and want to learn from Successful entrepreneurs that are senior hustlers..</p>
+                <p>Usually they are new comers into the entrepreneurial race.</p>
             </div>
             <div class="col-lg-4">
                 <img src="{{asset('img/about.png')}}" alt="">
-                <h3>Senior Hustler</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h3>Senior Hustlers</h3>
+                <p>Hustlers with experience; they have been successful in their business pursuits and want to give back by mentoring aspiring entrepreneurs.</p>
+                <p>Usually they are the more successful and established entrepreneurs.</p>
             </div>
             <div class="col-lg-4">
                 <img src="{{asset('img/about.png')}}" alt="">
-                <h3>LOC Member</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <h3>LOC Members</h3>
+                <p>As the name implies, they are the people that work behind the scenes to make the connections happen.</p>
             </div>
         </div>
         <br>
@@ -201,35 +203,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
 <section id="contact" name="contact"></section>
-<div id="footerwrap">
-    <div class="container">
-        <h3>We'd love to here from you!</h3> 
-        <div class="col-lg-3 centered">
-        <p></p>
-        <p><a class="btn btn-info" href="mailto: wehustleng@gmail.com"><i class="fa fa-envelope"></i> Mail us!</a></p>
-        <p><a class="btn btn-info" href="https://twitter.com/wehustleng"><i class="fa fa-twitter"></i> Tweet at Us!</a></p>
-        </div>
-
-        <div class="col-lg-9 centered">
-            <form role="form" action="{{url('/contact')}}" method="post">
-                {{ csrf_token() }}
-                <div class="form-group">
-                    <label for="name1">Your Name</label>
-                    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                    <label for="email1">Email address</label>
-                    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label>Your Text</label>
-                    <textarea class="form-control" name="Message" rows="3"></textarea>
-                </div>
-                <br>
-                <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
-            </form>
-        </div>
-    </div>
+<section id="footerwrap">    
+    <a href="https://twitter.com/wehustleng">Tweet at Us!</a>
+</section>
 </div>
 <div id="c">
     <div class="container">

@@ -130,10 +130,8 @@ a:after {
 
 #footerwrap {
 	background-color: #2f2f2f;
-	color: white;
-	padding-top: 40px;
-	padding-bottom: 60px;
-	text-align: left;
+	text-align: center;
+    cursor: pointer;
 }
 
 #footerwrap h3 {
@@ -144,6 +142,17 @@ a:after {
 #footerwrap p {
 	color: white;
 	font-size: 18px;
+}
+
+#footerwrap a {
+    font-size: 4rem;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    padding: 3.5rem 0;
+    display: block;
+
+
 }
 
 /* Copyright Wrap */
