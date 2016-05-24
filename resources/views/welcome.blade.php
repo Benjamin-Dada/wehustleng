@@ -208,11 +208,11 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div>
 </div>
 <div id="c">
-    <div class="container">
-        
+    <div class="container" style="padding-bottom: 10px;">
+        <p style="display: inline;">
          Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart-o "></i> by wehustleng 
-         <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope"></i> Email Us!</a></div>
-        
+        </p>
+        <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope"></i> Email Us! </a></div>
     </div>
 </div>
 
