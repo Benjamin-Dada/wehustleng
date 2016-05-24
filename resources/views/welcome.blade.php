@@ -49,8 +49,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#desc" class="smoothScroll">About</a></li>
                     <li><a href="#features" class="smoothScroll">Do I Qualify?</a></li>
-                    <li><a href="#showcase" class="smoothScroll">Testimonials</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="#showcase" class="smoothScroll">Testimonials</a></li>
+                    
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -58,7 +59,46 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 
     <section id="home" name="home"></section>
-    <img src="{{asset('img/wehustleng.jpg')}}" class="img-responsive" width="100%">
+    <!-- <img src="{{asset('img/wehustleng.jpg')}}" class="img-responsive" width="100%"> -->
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{{asset('img/wehustleng.jpg')}}" alt="Chania" style="width: 100%;">
+    </div>
+
+    <div class="item">
+      <img src="{{asset('img/wehustleng.jpg')}}" alt="Chania" style="width: 100%;">
+    </div>
+
+    <div class="item">
+      <img src="{{asset('img/wehustleng.jpg')}}" alt="Flower" style="width: 100%;">
+    </div>
+
+    <div class="item">
+      <img src="{{asset('img/wehustleng.jpg')}}" alt="Flower" style="width: 100%;">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- /carousel -->
 
     <section id="desc" name="desc"></section>
     <!-- INTRO WRAP -->
@@ -129,7 +169,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
                           For you to qualify as a hustler on our platform you must be either a founder or co-founder of a business.<br>
-                          Else, you would have to convince us on why 
+                          Else, you would have to convince us on why you should be part of the family. 
                         </div>
                       </div>
                     </div>
@@ -164,11 +204,16 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                       </div>
                     </div>
                   </div><!--/ accordion -->
+                  <h3>Are you qualified? Go ahead to email us.</h3>
                 </div><!--/ lg-offset -->
             </div><!--/ .row -->
         </div><!--/ .container -->
     </div><!--/ #features -->
 
+<section id="contact" name="contact"></section>
+<div id="footerwrap">    
+    <a href="mailto:wehustleng@gmail.com">Email us, now!</a>
+</div>
 
 <section id="showcase" name="showcase"></section>
 <div id="showcase">
@@ -202,17 +247,12 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     </div><!-- /container -->
 </div>
 
-<section id="contact" name="contact"></section>
-<div id="footerwrap">    
-    <a href="https://twitter.com/wehustleng">Tweet at Us!</a>
-</div>
-</div>
 <div id="c">
     <div class="container" style="padding-bottom: 10px;">
         <p style="display: inline;">
          Copyright &copy; <?php echo date('Y'); ?> | Made with <a href="#"><i class="fa fa-heart-o "></i></a> by wehustleng 
         </p>
-        <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope-o"></i> &nbsp;Email Us! </a></div>
+        <div class="pull-right"> <a href="https://wehustleng.herokuapp.com/"> <i class="fa fa-envelope-o"></i> &nbsp;Tweet at us! </a></div>
     </div>
 </div>
 
