@@ -81,7 +81,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <p>Usually they are the more successful and established entrepreneurs.</p>
                 </div>
                 <div class="col-lg-4">
-                    <<i class="fa fa-users fa-5" aria-hidden="true"></i>
+                    <i class="fa fa-users fa-5" aria-hidden="true"></i>
                     <h3>LOC Members</h3>
                     <p>As the name implies, they are the people that work behind the scenes to make the connections happen.</p>
                 </div>
@@ -210,9 +210,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="c">
     <div class="container" style="padding-bottom: 10px;">
         <p style="display: inline;">
-         Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart-o "></i> by wehustleng 
+         Copyright &copy; <?php echo date('Y'); ?> | Made with <a href="#"><i class="fa fa-heart-o "></i></a> by wehustleng 
         </p>
-        <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope"></i> Email Us! </a></div>
+        <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope-o"></i> &nbsp;Email Us! </a></div>
     </div>
 </div>
 
