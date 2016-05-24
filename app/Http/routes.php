@@ -14,6 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-/*Route::post('contact', function(){
-	return "Hey, I am contact";
-});*/
+

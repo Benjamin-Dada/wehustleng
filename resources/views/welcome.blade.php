@@ -69,19 +69,19 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <br>
                 <br>
                 <div class="col-lg-4">
-                    <img src="{{asset('img/about.png')}}" alt="">
+                    <i class="fa fa-users fa-5" aria-hidden="true"></i>
                     <h3>Junior Hustlers</h3>
                     <p>Hustlers trying to get ahead in their business pursuits and want to learn from Successful entrepreneurs that are senior hustlers..</p>
                     <p>Usually they are new comers into the entrepreneurial race.</p>
                 </div>
                 <div class="col-lg-4">
-                    <img src="{{asset('img/about.png')}}" alt="">
+                    <i class="fa fa-users fa-5" aria-hidden="true"></i>
                     <h3>Senior Hustlers</h3>
                     <p>Hustlers with experience; they have been successful in their business pursuits and want to give back by mentoring aspiring entrepreneurs.</p>
                     <p>Usually they are the more successful and established entrepreneurs.</p>
                 </div>
                 <div class="col-lg-4">
-                    <img src="{{asset('img/about.png')}}" alt="">
+                    <<i class="fa fa-users fa-5" aria-hidden="true"></i>
                     <h3>LOC Members</h3>
                     <p>As the name implies, they are the people that work behind the scenes to make the connections happen.</p>
                 </div>
@@ -96,10 +96,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         <div class="container">
             <div class="row">
                 <h1 class="centered">Do I qualify?</h1>
-                <br>
-                <br>
+                
                 <div class="col-lg-2 centered">
-                    <img class="centered" src="{{asset('img/details.png')}}" alt="">
+                    <i class="fa fa-list-alt fa-5"></i>
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2">
@@ -210,9 +209,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 </div>
 <div id="c">
     <div class="container">
-        <p>
+        
          Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart-o "></i> by wehustleng 
-        </p>
+         <div class="pull-right"> <a href="wehustleng@gmail.com"> <i class="fa fa-envelope"></i> Email Us!</a></div>
+        
     </div>
 </div>
 
