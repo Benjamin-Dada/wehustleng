@@ -29,6 +29,7 @@ p {
     text-align: center;
 }
 
+
 /* Links */
 a {
     color: #3bc492;
@@ -119,13 +120,12 @@ a:after {
 
 #showcase {
 	display: block;
-	background-color: #34495e;
-	padding-top: 50px;
+	background-color: #fff;
 	padding-bottom: 50px;
 }
 
 #showcase h1 {
-	color: white;
+	color: black;
 }
 
 #footerwrap {
@@ -152,7 +152,6 @@ a:after {
     padding: 3.5rem 0;
     display: block;
 
-
 }
 
 /* Copyright Wrap */
@@ -164,9 +163,10 @@ a:after {
 }
 
 #c p {
-	color: white
+	color: white;
 }
 
 .fa-5{
-    font-size: 200px;
+    font-size: 150px;
+    padding-bottom: 30px;
 }
