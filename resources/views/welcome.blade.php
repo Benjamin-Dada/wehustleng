@@ -12,8 +12,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
-
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="{{asset('/css/scrolling-nav.css')}}">
@@ -53,9 +51,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <li><a href="#desc" class="smoothScroll">Groups</a></li>
                     <li><a href="#showcase" class="smoothScroll">Benefits</a></li>
                     <li><a href="#features" class="smoothScroll">Do I Qualify?</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    
-                    
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>                    
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -70,9 +66,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
           </ol>
           <!-- Carousel items -->
           <div class="carousel-inner">
-            <div class="active item"><img src="{{asset('img/wehustleng_plain.jpg')}}" alt="Chania" style="width: 100%;"></div>
-            <div class="item"><img src="{{asset('img/wehustleng_wit_def.jpg')}}" alt="Chania" style="width: 100%;"></div>
-            <div class="item"><img src="{{asset('img/wehustleng_wit_handle.jpg')}}" alt="Chania" style="width: 100%;"></div>
+            <div class="active item"><img src="{{asset('img/wehustleng_plain.jpg')}}" alt="picture1" style="width: 100%;"></div>
+            <div class="item"><img src="{{asset('img/wehustleng_wit_def.jpg')}}" alt="picture2" style="width: 100%;"></div>
+            <div class="item"><img src="{{asset('img/wehustleng_wit_handle.jpg')}}" alt="picture3" style="width: 100%;"></div>
           </div>
           <!-- Carousel nav -->
           <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
@@ -116,6 +112,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <h2 class="centered"><b>Benefits</b></h2>
                 <br>
                 <div class="col-lg-8 col-lg-offset-2">
+                  
                     
                 </div>
             
@@ -199,6 +196,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                       </div>
                     </div>
                   </div><!--/ accordion -->
+                  <br>
                   <h3>Are you qualified? Go ahead to email us.</h3>
                 </div><!--/ lg-offset -->
             </div><!--/ .row -->
@@ -209,8 +207,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <div id="footerwrap">    
     <a href="mailto:wehustleng@gmail.com">Email us, now!</a>
 </div>
-
-
 
 <div id="c">
     <div class="container" style="padding-bottom: 10px;">
