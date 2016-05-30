@@ -63,26 +63,24 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <section id="home" name="home"></section>
         <div id="myCarousel" class="carousel slide">
-          <ol class="carousel-indicators">
+          <!-- <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
+          </ol> -->
           <!-- Carousel items -->
           <div class="carousel-inner">
             <div class="active item"><img src="{{asset('img/wehustleng.jpg')}}" alt="picture1" style="width: 100%;">
               <div class="carousel-caption">
                 <h3>About Wehustle</h3>
-                <p>A IV-only community to connect bright, ambitious and enterprising youths to successful peers and mature hustlers.<br>
-                  With current focus on the Nigerian Business Scene.
+                <p>A IV-only community to connect bright and enterprising youths to successful peers and seniors. <br>
                 </p>
               </div>
             </div>
             <div class="item"><img src="{{asset('img/wehustleng_def.jpg')}}" alt="picture2" style="width: 100%;">
               <div class="carousel-caption">
                 <h3>Who is a Hustler?</h3>
-                <p> We regard any hard-working person, who is trying to get ahead in life as a hustler. <br>
-                   Most times they turn out to be entrepreneurs...you are welcome.
+                <p> We regard any hard-working person, who is trying to get ahead in life as a hustler. <a href="#desc" class="btn btn-default">Learn More</a>
                 </p>
               </div>
             </div>
@@ -90,9 +88,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
               <img src="{{asset('img/wehustleng.jpg')}}" alt="picture3" style="width: 100%;">
               <div class="carousel-caption">
                 <h3>Benefits</h3>
-                <p> The connections go beyond the Twitter handle. <br> Based on the assessment of your business our concierge team would rightly connect you to someone that can help.<br>
-                  Basically, it accelerates your path to success by hinting your of possible roadblocks, so you can effectively avoid them. <br>
-                  This would be made possible by listening to the experiences of other accomplished entrepreneurs on our platform.
+                <p>Based on the assessment of your business need our concierge team would rightly connect you to someone that can help.<br>
                 </p>
               </div>
             </div>
