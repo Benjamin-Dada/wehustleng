@@ -9,7 +9,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     
     <title>WeHustleNG</title>
 
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
+
     <!-- Bootstrap core CSS -->
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
@@ -41,15 +44,16 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{url('/')}}">
-                    WeHustleNG
+                <a href="{{url('/')}}">
+                    <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="50" weight="50" class="hidden-xs">
+          <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="45" weight="45" class="visible-xs">
                 </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#home" class="smoothScroll">Home</a></li>
                     <li><a href="#desc" class="smoothScroll">Groups</a></li>
-                    <li><a href="#showcase" class="smoothScroll">Benefits</a></li>
+                    <!-- <li><a href="#showcase" class="smoothScroll">Benefits</a></li> -->
                     <li><a href="#features" class="smoothScroll">Do I Qualify?</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact</a></li>                    
                 </ul>
@@ -66,9 +70,32 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
           </ol>
           <!-- Carousel items -->
           <div class="carousel-inner">
-            <div class="active item"><img src="{{asset('img/wehustleng_plain.jpg')}}" alt="picture1" style="width: 100%;"></div>
-            <div class="item"><img src="{{asset('img/wehustleng_wit_def.jpg')}}" alt="picture2" style="width: 100%;"></div>
-            <div class="item"><img src="{{asset('img/wehustleng_wit_handle.jpg')}}" alt="picture3" style="width: 100%;"></div>
+            <div class="active item"><img src="{{asset('img/wehustleng.jpg')}}" alt="picture1" style="width: 100%;">
+              <div class="carousel-caption">
+                <h3>About Wehustle</h3>
+                <p>A IV-only community to connect bright, ambitious and enterprising youths to successful peers and mature hustlers.<br>
+                  With current focus on the Nigerian Business Scene.
+                </p>
+              </div>
+            </div>
+            <div class="item"><img src="{{asset('img/wehustleng_def.jpg')}}" alt="picture2" style="width: 100%;">
+              <div class="carousel-caption">
+                <h3>Who is a Hustler?</h3>
+                <p> We regard any hard-working person, who is trying to get ahead in life as a hustler. <br>
+                   Most times they turn out to be entrepreneurs...you are welcome.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="{{asset('img/wehustleng.jpg')}}" alt="picture3" style="width: 100%;">
+              <div class="carousel-caption">
+                <h3>Benefits</h3>
+                <p> The connections go beyond the Twitter handle. <br> Based on the assessment of your business our concierge team would rightly connect you to someone that can help.<br>
+                  Basically, it accelerates your path to success by hinting your of possible roadblocks, so you can effectively avoid them. <br>
+                  This would be made possible by listening to the experiences of other accomplished entrepreneurs on our platform.
+                </p>
+              </div>
+            </div>
           </div>
           <!-- Carousel nav -->
           <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
@@ -97,7 +124,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <i class="fa fa-users fa-5x" aria-hidden="true"></i>
                     <h3>Community Managers</h3>
                     <p>As the name implies, they are the people that work behind the scenes to make the connections happen. Once they identify a fit between business needs they make the calls.<br>
-                    <a href="#" class="btn btn-default">Volunteer now</a>
+                    <a href="mailto:wehustleng@gmail.com" class="btn btn-default">Volunteer now</a>
                     </p>
                 </div>
             </div>
@@ -105,7 +132,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <hr>
         </div> <!--/ .container -->
     </div><!--/ #introwrap -->
-    <section id="showcase" name="showcase"></section>
+    <!-- <section id="showcase" name="showcase"></section>
     <div id="showcase">
         <div class="container">
             
@@ -120,7 +147,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
             <br>
             <br>
         </div><!-- /container -->
-    </div>
+    <!-- </div> -->
     <!-- FEATURES WRAP -->
     <div id="features">
         <div class="container">
@@ -210,10 +237,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
 <div id="c">
     <div class="container" style="padding-bottom: 10px;">
-        <p >
-         Copyright &copy; <?php echo date('Y'); ?> | Made with <a href="#"><i class="fa fa-heart-o "></i></a> by wehustleng 
-        </p>
-        <p> <a href="https://twitter.com/wehustleng"> <i class="fa fa-twitter"></i> &nbsp;Tweet at us! </a></p>
+        
+         Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart-o "></i> by wehustleng 
+        <br>
+        <a href="https://twitter.com/wehustleng"> <i class="fa fa-twitter"></i> &nbsp;Tweet at us! </a>
     </div>
 </div>
 
