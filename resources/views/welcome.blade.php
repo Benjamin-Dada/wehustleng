@@ -36,7 +36,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <body id="page-top" data-spy="scroll" data-offset="0" data-target="#navigation">
 
     <!-- Fixed navbar -->
-    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div id="navigation" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,8 +45,9 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                     <span class="icon-bar"></span>
                 </button>
                 <a href="{{url('/')}}">
-                    <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="50" weight="50" class="hidden-xs">
-          <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="45" weight="45" class="visible-xs">
+                  
+                  <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="50" weight="50" class="hidden-xs">
+                  <img src="{{asset('img/logo.png')}}" alt="wehustleng" height="45" weight="45" class="visible-xs">
                 </a>
             </div>
             <div class="navbar-collapse collapse">
@@ -63,11 +64,6 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
     <section id="home" name="home"></section>
         <div id="myCarousel" class="carousel slide">
-          <!-- <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol> -->
           <!-- Carousel items -->
           <div class="carousel-inner">
             <div class="active item"><img src="{{asset('img/wehustleng.jpg')}}" alt="picture1" style="width: 100%;">
@@ -77,10 +73,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 </p>
               </div>
             </div>
-            <div class="item"><img src="{{asset('img/wehustleng_def.jpg')}}" alt="picture2" style="width: 100%;">
+            <div class="item"><img src="{{asset('img/wehustleng.jpg')}}" alt="picture2" style="width: 100%;">
               <div class="carousel-caption">
                 <h3>Who is a Hustler?</h3>
-                <p> We regard any hard-working person, who is trying to get ahead in life as a hustler. <a href="#desc" class="btn btn-default">Learn More</a>
+                <p> We regard any hard-working person, who is trying to get ahead in life as a hustler.
                 </p>
               </div>
             </div>
@@ -107,17 +103,19 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <br>
                 <br>
                 <div class="col-lg-4">
-                    <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-users fa-5x" aria-hidden="true"></i> -->
+                    <img src="{{asset('img/growing.png')}}" width="100" height="100">
                     <h3>Junior Hustlers</h3>
                     <p>Young entrepreneurs, working towards breaking new grounds in their industry. Usually they have a working product/solution with seed capital/funding and what they need right now is distribution and PR/branding. With mentoring as an icing on the cake.</p>
                 </div>
                 <div class="col-lg-4">
-                    <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                    <img src="{{asset('img/successful.png')}}" width="100" height="100">
                     <h3>Senior Hustlers</h3>
                     <p>Successful entrepreneurs with measurable experience building businesses. Typically they've either sold a business before or gone public or they could currently be running a business with 10 million naira in revenue.</p>
                 </div>
                 <div class="col-lg-4">
-                    <i class="fa fa-users fa-5x" aria-hidden="true"></i>
+                    <!-- <i class="fa fa-users fa-5x" aria-hidden="true"></i> -->
+                     <img src="{{asset('img/managers.png')}}" width="120" height="120">
                     <h3>Community Managers</h3>
                     <p>As the name implies, they are the people that work behind the scenes to make the connections happen. Once they identify a fit between business needs they make the calls.<br>
                     <a href="mailto:wehustleng@gmail.com" class="btn btn-default">Volunteer now</a>
@@ -152,7 +150,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 <br>
                 
                 <div class="col-lg-2 centered">
-                    <i class="fa fa-list-alt fa-5"></i>
+                    <img src="{{asset('img/unknown.png')}}" width="250" height="250" style="padding-bottom: 10px;">
                 </div>
 
                 <div class="col-lg-8 col-lg-offset-2">
@@ -235,8 +233,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <div class="container" style="padding-bottom: 10px;">
         
          Copyright &copy; <?php echo date('Y'); ?> | Made with <i class="fa fa-heart-o "></i> by wehustleng 
-        <br>
-        <a href="https://twitter.com/wehustleng"> <i class="fa fa-twitter"></i> &nbsp;Tweet at us! </a>
+      
+        <a class="pull-right" href="https://twitter.com/wehustleng"> <i class="fa fa-twitter"></i></a>
     </div>
 </div>
 

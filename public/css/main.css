@@ -10,6 +10,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+.navbar-inverse{
+    background-color: #0A0A0F;
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +35,7 @@ p {
 
 /* Links */
 a {
-    color: #3bc492;
+    color: #d3d3d3;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -44,7 +47,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #c0392b;
+    color: inherit;
     text-decoration: none;
     outline: 0;
 }
@@ -104,7 +107,7 @@ a:after {
 
 #intro {
 	padding-top: 50px;
-	border-top: #bdc3c7 solid 5px;
+	/*border-top: #bdc3c7 solid 5px;*/
 }
 
 #features {
@@ -170,7 +173,10 @@ a:after {
     font-size: 150px;
     padding-bottom: 30px;
 }
+.carousel-caption h3{
+    color: white;
 
+}
 
 .carousel-caption{
     position: absolute;
@@ -178,5 +184,5 @@ a:after {
     left: 0;
     bottom: 0;
     padding: 15px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
 }
