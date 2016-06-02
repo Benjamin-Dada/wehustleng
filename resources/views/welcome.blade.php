@@ -115,7 +115,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
                 </div>
                 <div class="col-lg-4">
                     <!-- <i class="fa fa-users fa-5x" aria-hidden="true"></i> -->
-                     <img src="{{asset('img/managers.png')}}" width="120" height="120">
+                     <img src="{{asset('img/managers.png')}}" width="105" height="105">
                     <h3>Community Managers</h3>
                     <p>As the name implies, they are the people that work behind the scenes to make the connections happen. Once they identify a fit between business needs they make the calls.<br>
                     <a href="mailto:wehustleng@gmail.com" class="btn btn-default">Volunteer now</a>
