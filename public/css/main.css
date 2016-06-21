@@ -14,6 +14,11 @@ body {
     background-color: #0A0A0F;
 }
 
+.navbar-collapse li{
+    font-family: "Lato";
+    font-weight: 600;
+
+}
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
